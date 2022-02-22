@@ -19,7 +19,7 @@
     <Version>1.51.$(VersionSuffix)</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="4.5.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.0.0" />
     <PackageReference Include="System.Resources.Extensions" Version="4.6.0" />
   </ItemGroup>
   <ItemGroup>
@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp.Charting\PdfSharp.Charting.csproj" />
-    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp\PDFsharp.csproj" />
+    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp\PdfSharp.csproj" />
     <ProjectReference Include="..\MigraDoc.DocumentObjectModel\MigraDoc.DocumentObjectModel.csproj" />
   </ItemGroup>
   <ItemGroup>
