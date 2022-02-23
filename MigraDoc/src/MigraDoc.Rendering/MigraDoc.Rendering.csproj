@@ -19,7 +19,6 @@
     <Version>1.51.$(VersionSuffix)</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SixLabors.ImageSharp" Version="2.0.0" />
     <PackageReference Include="System.Resources.Extensions" Version="4.6.0" />
   </ItemGroup>
   <ItemGroup>
